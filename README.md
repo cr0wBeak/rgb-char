@@ -9,11 +9,12 @@ The following file extensions have the known compatibilities:
 |---|---|
 | .png | <span style="color:green">Supported</span> |
 | .jpg | <span style="color:green">Supported</span> |
+
 Any other file extensions have unknown compatibility.
 
 ### Generating images
-Although you can't generate images within this program in the current version, an upcoming refactor is coming to allow a new function that permits images to appear. Once I am out of class, I will include this.
-However, using a pixel art maker (the example image, img/hello_world.png, was generated using [pixelart.com][https://www.pixilart.com/draw]), you can add generate an image by manually changing each RGB value. Note that the height is dependant on how many lines you have, and width should be equal to your longest line. Remember that each pixel stores 3 values; the first character is the R value, the second character is the B value, and the third character is the G value.
+By entering "2" at the start, you are able to push a message (replacing all line breaks with \n). By doing so, the program will automatically draw a new image for you in img/. It is recommended to verify the image by running it through the program itself.
+Additionally, by using a pixel art maker (the example image, img/hello_world.png, was generated using [pixelart.com](https://www.pixilart.com/draw)), you can add generate an image by manually changing each RGB value. Note that the height is dependant on how many lines you have, and width should be equal to your longest line. Remember that each pixel stores 3 values; the first character is the R value, the second character is the B value, and the third character is the G value.
 
 Below is a table of all ASCII values (TODO: validate)
 | Dec | Hex  | Char | Rust Byte Literal |
